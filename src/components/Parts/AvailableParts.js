@@ -36,6 +36,7 @@ const AvailableParts = () => {
           {DUMMY_MEALS.map((ele) => (
             <PartItem
               key={ele.id}
+              id={ele.id}
               name={ele.name}
               description={ele.description}
               price={ele.price}
